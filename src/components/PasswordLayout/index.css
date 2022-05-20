@@ -1,0 +1,285 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #9ba9eb;
+  height: 100vh;
+  background-size: cover;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    padding: 50px;
+  }
+}
+
+.content-container {
+  width: 90%;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .content-container {
+    width: 80%;
+  }
+}
+
+.top-container {
+  background-color: #5763a5;
+  padding: 24px;
+  border: none;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .top-container {
+    flex-direction: row;
+  }
+}
+
+.input-container {
+  background-color: #454f84;
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+
+  order: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .input-container {
+    width: 45%;
+    padding: 18px;
+    margin-right: 50px;
+    order: 0;
+  }
+}
+
+.app-logo {
+  width: 180px;
+  height: 50px;
+  align-self: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .app-logo {
+    width: 200px;
+    height: 60px;
+  }
+}
+
+.typing-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.input-icon {
+  width: 15px;
+  height: 15px;
+}
+
+.input-icon-container {
+  background-color: #ffffff;
+  padding: 8px;
+  border: 1px solid #94a3b8;
+}
+
+.input {
+  height: 39px;
+  padding-left: 10px;
+  font-size: 14px;
+  outline: none;
+  width: 100%;
+  border: 1px solid #94a3b8;
+}
+
+.heading {
+  font-size: 32px;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.add-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 12px;
+  width: 55px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  align-self: flex-end;
+}
+
+.image-for-small-device {
+  display: block;
+  width: 350px;
+  height: 350px;
+  order: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .image-for-small-device {
+    display: none;
+  }
+}
+
+.image-for-medium-device {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .image-for-medium-device {
+    display: block;
+    width: 34%;
+    height: 380px;
+    order: 1;
+  }
+}
+
+.bottom-container {
+  background-color: #5763a5;
+  padding: 24px;
+  border: none;
+  border-radius: 12px;
+  display: flex;
+  margin-top: 15px;
+  width: 100%;
+  flex-direction: column;
+}
+
+.count-search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+}
+
+.heading-count-container {
+  display: flex;
+  align-items: center;
+}
+
+.bottom-heading {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-right: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .bottom-heading {
+    font-size: 25px;
+    margin-right: 10px;
+  }
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-icon-container {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+
+  border: 1px solid #94a3b8;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.search-input {
+  padding-left: 10px;
+  height: 25px;
+  font-size: 12px;
+  outline: none;
+  border: 1px solid #94a3b8;
+}
+
+.count-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ffffff;
+  height: 28px;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.count {
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.line {
+  border: 1px solid #ffffff;
+  width: 100%;
+  margin: 0;
+}
+
+.show-passwords-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.checkbox-input {
+  width: 15px;
+  height: 15px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.para {
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.no-password-image {
+  width: 70%;
+  height: 70%;
+}
+
+.no-pass-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pass-card-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.no-pass {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: bold;
+}
